@@ -30,15 +30,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/dashboard-design-2":
+      case "/userManagement":
         title = "";
         metaDescription = "";
         break;
-      case "/dashboard-design-3":
+      case "/busRouteRecords":
         title = "";
         metaDescription = "";
         break;
-      case "/dashboard-design-4":
+      case "/routeSummary":
         title = "";
         metaDescription = "";
         break;

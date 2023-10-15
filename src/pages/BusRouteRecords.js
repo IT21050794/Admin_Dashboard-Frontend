@@ -1,4 +1,3 @@
-//import UserManagementContainer from "../components/UserManagementContainer";
 import FormContainer from "../components/FormContainer";
 import BusRootsTable1 from "../components/BusRootsTable1";
 import SideMenuContainer from "../components/SideMenuContainer";
@@ -63,18 +62,6 @@ const BusRouteRecords = () => {
           </button>
         </div>
       </div>
-      {/* <div className="absolute top-[166px] left-[59px] rounded-2xl bg-color-white shadow-[0px_20px_50px_rgba(55,_69,_87,_0.1)] w-[252px] h-16 flex flex-row items-center justify-start py-4 px-6 box-border gap-[24px] text-lightslategray-200 font-xs-semibold">
-        <img className="relative w-8 h-8" alt="" src="/graph-13.svg" />
-        <div className="relative font-semibold">Dashboard</div>
-      </div>
-      <div className="absolute top-[307px] left-[47px] rounded-2xl bg-primary-900 shadow-[0px_20px_50px_rgba(55,_69,_87,_0.1)] w-[268px] h-16 flex flex-row items-center justify-start py-4 px-6 box-border gap-[24px] text-color-white font-xs-semibold">
-        <img
-          className="relative w-8 h-8 overflow-hidden shrink-0"
-          alt=""
-          src="/interface--chart-line.svg"
-        />
-        <div className="relative font-semibold">Bus Route records</div>
-      </div> */}
     </div>
   );
 };
