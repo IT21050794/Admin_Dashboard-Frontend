@@ -1,4 +1,3 @@
-//import ContainerFrame from "../components/ContainerFrame";
 import Header from "../components/Header";
 import FormContainer1 from "../components/FormContainer1";
 import TrendsContainer from "../components/TrendsContainer";
@@ -7,7 +6,6 @@ import SideMenuContainer from "../components/SideMenuContainer";
 const RouteSummary = () => {
   return (
     <div className="relative bg-gray box-border w-full h-[1311px] overflow-hidden text-left text-sm text-grayscale-black font-bold-24 border-[1px] border-solid border-greys-blue-grey-300">
-      {/* <ContainerFrame /> */}
       <SideMenuContainer />
       <div className="absolute top-[0px] left-[345px] w-[1575px] h-[1311px] overflow-hidden">
         <div className="absolute top-[0px] left-[0px] w-[1575px] h-[1311px] overflow-hidden">
