@@ -1,4 +1,3 @@
-//import DashboardContainer from "../components/DashboardContainer";
 import FormContainer from "../components/FormContainer";
 import Container1 from "../components/Container1";
 import Container from "../components/Container";
@@ -76,36 +75,6 @@ const UserManagement = () => {
             src="/icon--sort.svg"
           />
         </div>
-        <div className="absolute top-[1037px] right-[32px] w-[371px] h-6 text-grayscale-gray">
-          <div className="absolute top-[3px] right-[232px] w-[139px] h-[18px]">
-            <div className="absolute top-[0px] right-[33px] tracking-[0.3px] leading-[20px] inline-block w-[106px] h-[18px]">
-              Rows per page:
-            </div>
-            <div className="absolute top-[0px] right-[15px] tracking-[0.3px] leading-[20px] text-grayscale-gray-dark text-right inline-block w-2.5 h-[18px]">
-              7
-            </div>
-            <img
-              className="absolute top-[3px] right-[0px] w-3 h-3 overflow-hidden"
-              alt=""
-              src="/icon--dropdown.svg"
-            />
-          </div>
-          <div className="absolute top-[0px] right-[0px] w-[184px] h-6 text-right">
-            <div className="absolute top-[3px] right-[84px] tracking-[0.3px] leading-[20px] inline-block w-[100px] h-[18px]">
-              1-7 of 1240
-            </div>
-            <img
-              className="absolute top-[0px] right-[36px] w-6 h-6 overflow-hidden"
-              alt=""
-              src="/icon--arrow--left.svg"
-            />
-            <img
-              className="absolute top-[0px] right-[0px] w-6 h-6 overflow-hidden"
-              alt=""
-              src="/icon--arrow--right.svg"
-            />
-          </div>
-        </div>
         <b className="absolute w-[calc(100%_-_722px)] top-[32px] left-[32px] text-lgi tracking-[0.4px] inline-block text-grayscale-black">
           All Users
         </b>
@@ -145,6 +114,36 @@ const UserManagement = () => {
             alt=""
             src="/divider--line--horizontal5.svg"
           />
+        </div>
+        <div className="absolute top-[1037px] right-[32px] w-[371px] h-6 text-grayscale-gray">
+          <div className="absolute top-[3px] right-[232px] w-[139px] h-[18px]">
+            <div className="absolute top-[0px] right-[33px] tracking-[0.3px] leading-[20px] inline-block w-[106px] h-[18px]">
+              Rows per page:
+            </div>
+            <div className="absolute top-[0px] right-[15px] tracking-[0.3px] leading-[20px] text-grayscale-gray-dark text-right inline-block w-2.5 h-[18px]">
+              7
+            </div>
+            <img
+              className="absolute top-[3px] right-[0px] w-3 h-3 overflow-hidden"
+              alt=""
+              src="/icon--dropdown.svg"
+            />
+          </div>
+          <div className="absolute top-[0px] right-[0px] w-[184px] h-6 text-right">
+            <div className="absolute top-[3px] right-[84px] tracking-[0.3px] leading-[20px] inline-block w-[100px] h-[18px]">
+              1-7 of 1240
+            </div>
+            <img
+              className="absolute top-[0px] right-[36px] w-6 h-6 overflow-hidden"
+              alt=""
+              src="/icon--arrow--left.svg"
+            />
+            <img
+              className="absolute top-[0px] right-[0px] w-6 h-6 overflow-hidden"
+              alt=""
+              src="/icon--arrow--right.svg"
+            />
+          </div>
         </div>
       </div>
     </div>

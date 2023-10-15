@@ -166,24 +166,20 @@ const Dashboard = () => {
                 propLeft="32px"
                 propBackgroundColor="#ffe2e5"
               />
-              <div className="absolute top-[32px] left-[745px] w-[100px] h-10">
-                <div className="absolute top-[0px] left-[0px] rounded-lg box-border w-[100px] h-10 border-[1px] border-solid border-lightsteelblue" />
-                <div className="absolute top-[10px] left-[16px] w-[68px] h-5">
-                  <div className="absolute top-[0px] left-[24px] leading-[20px] font-medium">
-                    Export
-                  </div>
-                  <div className="absolute top-[2px] left-[0px] w-4 h-4">
-                    <div className="absolute top-[0px] left-[0px] w-4 h-4" />
-                    <div className="absolute top-[1.33px] left-[1.33px] w-[13.33px] h-[13.33px]">
-                      <div className="absolute top-[0px] left-[0px] w-[13.33px] h-[13.33px]" />
-                      <img
-                        className="absolute top-[1.33px] left-[1.33px] w-[10.67px] h-[10.67px]"
-                        alt=""
-                        src="/union1.svg"
-                      />
+              <div className="absolute top-[32px] left-[745px]">
+                <button className="rounded-lg border-[1px] border-solid border-lightsteelblue w-[100px] h-10 p-0.5 flex items-center justify-center">
+                  <span className="font-medium">Export</span>
+                  <span className="w-18 h-18 ml-2">
+                    <div className="w-18 h-18">
+                      <div className="w-18 h-18" />
+                      <div className="w-18 h-18">
+                        <div className="w-18 h-18">
+                          <img className="w-18 h-18" alt="" src="/union1.svg" />
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
+                  </span>
+                </button>
               </div>
               <div className="absolute top-[23px] left-[31px] w-[149px] h-[66px] text-xl text-primary-dark-shade">
                 <div className="absolute top-[0px] left-[0px] leading-[32px] font-semibold">

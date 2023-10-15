@@ -8,7 +8,7 @@ const TopProductsCard1 = () => {
             #
           </div>
           <div className="absolute top-[calc(50%_-_8px)] left-[8.8%] leading-[16px]">
-            Root
+            Route
           </div>
           <div className="absolute top-[calc(50%_-_8px)] left-[49.12%] leading-[16px]">
             Popularity
